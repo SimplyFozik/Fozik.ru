@@ -33,13 +33,13 @@ def main():
 
 
 def startServer():
-    os.system("start C:\PythonServer-Fozik.ru\PythonServer.bat")  # open file in directory with serverHandler.py
+    os.system("start server.bat")  # open file in directory with serverHandler.py
     main()
 
 
 # close in system
 def closeServer():
-    os.system("taskkill /f /im Python.exe")
+    os.system("taskkill /f /im PythonServer.exe")
 
 if __name__ == '__main__':
     subMain()
